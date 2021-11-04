@@ -1,0 +1,24 @@
+.container {
+	display: flex;
+	background-color: #eee;
+	justify-content: center;
+}
+
+.center {
+	column-count: 3;
+	width: 1200px;
+}
+
+@media screen and (max-width: 580px) {
+	.center {
+		column-count: 1;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.center {
+		column-count: 1;
+		width: 100%;
+	}
+}
